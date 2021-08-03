@@ -1,3 +1,15 @@
+通过npm包的方式在项目中引入自己定义的eslint、stylelint规则
+
+## 链接
+- 博客
+    - https://xiaozhuanlan.com/topic/0716948325
+- npm包
+    - https://www.npmjs.com/package/eslint-config-zc-base
+    - https://www.npmjs.com/package/stylelint-config-zc-base
+- github
+    - https://github.com/zc95/eslint-config-zc-base
+    - https://github.com/zc95/stylelint-config-zc
+
 ## 安装依赖
 ```js
 npm i eslint-config-zc-base --save-dev
@@ -169,13 +181,3 @@ trim_trailing_whitespace = false
 此时eslint、stylelint都正常工作了，第一次保存的时候格式化功能可能会比较慢。
 
 如果还不行，继续npm install，或者把node_modules和package-lock.json都删了再重新安装依赖。
-
-## 链接
-- 博客
-    - https://xiaozhuanlan.com/topic/0716948325
-- npm包
-    - https://www.npmjs.com/package/eslint-config-zc-base
-    - https://www.npmjs.com/package/stylelint-config-zc-base
-- github
-    - https://github.com/zc95/eslint-config-zc-base
-    - https://github.com/zc95/stylelint-config-zc
