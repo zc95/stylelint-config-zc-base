@@ -1,7 +1,7 @@
 通过npm包的方式在项目中引入自己定义的eslint、stylelint规则
 
 ## 链接
-- 博客
+- 文档
     - https://xiaozhuanlan.com/topic/0716948325
 - npm包
     - https://www.npmjs.com/package/eslint-config-zc-base
